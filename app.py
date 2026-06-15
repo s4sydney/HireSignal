@@ -12,7 +12,7 @@ st.subheader("Decoding What UK Graduate Data Analyst Roles Really Demand")
 st.markdown(
     "This project analyses **287 UK graduate Data Analyst job postings** "
     "and **42 real interview experience reviews** to uncover a 'visibility "
-    "gap' — the difference between what candidates can see in a job posting "
+    "gap' - the difference between what candidates can see in a job posting "
     "and what is actually tested in the interview."
 )
 
@@ -41,7 +41,7 @@ st.plotly_chart(fig1, use_container_width=True)
 st.caption(
     "Based on 42 manually-collected Glassdoor interview reviews for UK "
     "Data Analyst roles. SQL appears in nearly half of all reviewed "
-    "interview processes — by far the most commonly tested skill."
+    "interview processes  by far the most commonly tested skill."
 )
 
 st.divider()
@@ -162,7 +162,7 @@ st.markdown("""
 **Key Limitation**
 Job posting descriptions are truncated to ~500 characters by the Adzuna API,
 consistently cutting off before the skills/requirements section. This is
-why job postings show very low skill percentages — it reflects what's
+why job postings show very low skill percentages, it reflects what's
 *visible in the preview*, not what's actually required.
 
 **Full project**: methodology, complete findings, limitations, and future
@@ -170,4 +170,4 @@ work are documented in the
 [HireSignal GitHub repository](https://github.com/s4sydney/HireSignal).
 """)
 
-st.caption("Built by Sydney Ndabai) · MSc Data Analytics")
+st.caption("Built by Sydney Ndabai · MSc Data Analytics")
